@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.Circle?>
+
+
+<Circle fx:id = "Switcher" fill="WHITE" radius="30.0" stroke="BLACK" strokeType="INSIDE" fx:controller="sample.Controller" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" />

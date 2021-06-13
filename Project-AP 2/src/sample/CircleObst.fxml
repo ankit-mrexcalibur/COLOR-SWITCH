@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.Arc?>
+
+
+<Arc length="90.3716" radiusX="100.0" radiusY="100.0" startAngle="90.0" stroke="AQUA" strokeType="INSIDE" strokeWidth="15.0" type="ROUND" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" />

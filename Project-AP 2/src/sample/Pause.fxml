@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <JFXButton layoutX="226.0" layoutY="170.0" onAction="#resume" prefHeight="72.0" prefWidth="150.0" style="-fx-background-radius: 45; -fx-background-color: #73667d#73667d #73667d#73667d;" text="Resume" textFill="WHITE" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="201.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pause.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="226.0" layoutY="272.0" onAction="#saveGame" prefHeight="72.0" prefWidth="150.0" style="-fx-background-radius: 45; -fx-background-color: #73667d#73667d #73667d#73667d;" text="Save and Exit" textFill="WHITE" />
+   </children>
+</AnchorPane>

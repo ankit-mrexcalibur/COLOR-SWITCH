@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane hbarPolicy="NEVER" pannable="true" vbarPolicy="NEVER" vvalue="1.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <content>
+      <AnchorPane fx:id="gameScreen" onMouseClicked="#BounceBall" prefHeight="7320.0" prefWidth="611.0" style="-fx-background-color: #000000;">
+         <children>
+            <ImageView fitHeight="190.0" fitWidth="382.0" layoutX="110.0" layoutY="6800.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Logo/ColorSwitch_Full-Color-Logo+(1).png" />
+               </image>
+            </ImageView>
+            <Circle fx:id="player" fill="#ff0080" layoutX="300.0" layoutY="7150.0" onMouseClicked="#BounceBall" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+            <JFXTextField fx:id="ScoreBoard" editable="false" layoutX="532.0" layoutY="6619.0" prefHeight="123.0" prefWidth="54.0" text="0">
+               <font>
+                  <Font size="64.0" />
+               </font>
+            </JFXTextField>
+            <JFXButton fx:id="PauseButton" layoutX="514.0" layoutY="7150.0" onAction="#PauseMenu" prefHeight="60.0" prefWidth="60.0" style="-fx-background-radius: 100; -fx-background-color: #73667d#73667d #73667d#73667d;" text="||">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

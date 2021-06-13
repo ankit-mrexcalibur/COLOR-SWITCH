@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="602.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <JFXButton fx:id="StartButton" alignment="BOTTOM_CENTER" blendMode="LIGHTEN" layoutX="155.0" layoutY="396.0" onAction="#StartNewGame" prefHeight="53.0" prefWidth="277.0" style="-fx-background-color: #73667d#73667d; -fx-background-radius: 45;" text="New Game" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <Text fill="WHITE" layoutX="151.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="High Score:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <JFXButton layoutX="155.0" layoutY="479.0" onAction="#loadGame" prefHeight="53.0" prefWidth="277.0" style="-fx-background-radius: 45; -fx-background-color: #73667d#73667d #73667d#73667d;" text="Load Game" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="ExitButton" layoutX="159.0" layoutY="565.0" onAction="#Exit" prefHeight="53.0" prefWidth="268.0" style="-fx-background-color: #73667d#73667d #73667d#73667d; -fx-background-radius: 45;" text="Exit" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="HighScore" focusColor="BLACK" layoutX="368.0" layoutY="321.0" prefHeight="62.0" prefWidth="26.0" text="0">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </JFXTextField>
+      <ImageView fitHeight="99.0" fitWidth="85.0" layoutX="88.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Logo/C.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="50.0" layoutX="266.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Logo/L.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="O2" fitHeight="99.0" fitWidth="99.0" layoutX="312.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Logo/O.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="64.0" layoutX="419.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Logo/R.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="429.0" layoutX="94.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Logo/SWITCH.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="O1" fitHeight="99.0" fitWidth="99.0" layoutX="165.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Logo/O.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
